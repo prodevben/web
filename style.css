@@ -1,0 +1,242 @@
+@font-face {
+    font-family: franchise;
+    src: url(fonts/Franchise-Free-Bold.ttf);
+}
+@font-face {
+    font-family: texture1;
+    src: url(fonts/CrampsRegular-OV7od.ttf);
+}
+@font-face {
+    font-family: texture2;
+    src: url(fonts/KGBrokenVesselsSketch.ttf);
+}
+@font-face {
+    font-family: texture3;
+    src: url(fonts/Menzanine.ttf);
+}
+@font-face {
+    font-family: texture4;
+    src: url(fonts/Lionburg.ttf);
+}
+@font-face {
+    font-family: tex5;
+    src: url(fonts/CarterOne-Regular.ttf);
+}
+@font-face {
+    font-family: para1;
+    src: url(fonts/helvetica-light-587ebe5a59211.ttf);
+}
+@font-face {
+    font-family: bold-main;
+    src: url(fonts/Helvetica-Bold.ttf);
+}
+body{
+    background: linear-gradient(to bottom left,#46e0ffca,#caf0f8ca);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    font-family: tex5;
+    color: #1C1C1E;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+h1{
+    font-family: franchise;
+    font-size: 4rem;
+    margin-top: -1rem;
+}
+h3{
+    font-family: bold-main;
+    color: #f4fdff;
+
+}
+nav{
+    font-size: 1rem;
+}
+section{
+    overflow: hidden;
+}
+.pt-5{
+    padding-top: 12rem!important;
+}
+
+.img-fluid{
+    margin-top: -3rem;
+}
+#instagramButton {
+    background: rgb(117,253,255);
+    background: linear-gradient(45deg, rgba(117,253,255,1) 32%, rgba(0,212,255,1) 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 1rem;     
+    height: 2.5rem;    
+    border-radius: 50%;
+  }
+#instagramButton:hover{
+    box-shadow: 0 0 10px rgb(0, 200, 255);
+}
+#instagramBtn:hover{
+    box-shadow: 0 0 10px rgb(68, 68, 255);
+}
+#LinkedInButton{
+    background: #0A66C2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 1rem;     
+    height: 2.5rem;    
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+#LinkedInButton:hover{
+    box-shadow: 0 0 10px rgb(73, 73, 219);
+}
+#linkedBtn:hover{
+    box-shadow: 0 0 10px rgb(73, 73, 219);
+}
+#TwitterButton{
+    background: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 1rem;     
+    height: 2.5rem;    
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+#TwitterButton:hover{
+    box-shadow: 0 0 10px black;
+}
+#twitterBtn:hover{
+    box-shadow: 0 0 10px black;
+}
+.about-head{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: bold-main;
+    color: white;
+}
+.underline{
+    position: absolute;
+    width: 13rem;
+    margin-left: -6.75rem;
+    margin-top: -1rem;
+}
+#card{
+    flex-direction: row;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: #cfeef4;
+    cursor: pointer;
+    background: linear-gradient(to bottom left, #ace7f3,#bdf1fb);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+.web{
+    margin-top: 2rem;
+    height: 6rem;
+}
+#card:hover{
+    box-shadow: 0 0 6px cyan;
+    transition: all 0.7s ease-in;
+}
+.section-about{
+    background: linear-gradient(to bottom left,#02247e, #0b9ce3);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+.program{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    height: 8rem;
+}
+.contact-head{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: bold-main;
+    color: white;
+}
+.underline1{
+    position: absolute;
+    width: 15rem;
+    margin-left: -7.5rem;
+    margin-top: -1rem;
+}
+
+.contact-section{
+    background: linear-gradient(to bottom left,#00c8ff,  #00d3ff);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+.section-myself{
+    background: linear-gradient(to bottom left,#92f4ffbb,  #caf0f8ca);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+#navbarSupportedContent{
+    transition:height 1s ease;
+}
+#emailMeBtn{
+    background: #c0ffff;
+    transition: transform 0.5s ease;
+    
+}
+#dmMeBtn{
+    background: #c0ffff;
+    transition: transform 0.5s ease;
+}
+#emailMeBtn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px royalblue;
+}
+#dmMeBtn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px royalblue;
+}
+@media (min-width: 768px) {
+    .l-img {
+      margin-left: 0.5rem;
+      width: 350px;
+    }
+  }
+  @media (min-width: 767px) {
+    .fbx {
+    height: 100px;
+    }
+  }
+  @media (max-width: 767px) {
+    .r-crd {
+    width: 350px;
+   
+    }
+  }
+  @media (max-width: 767px) {
+    .l-para {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
